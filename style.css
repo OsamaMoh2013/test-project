@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    max-width: 1920px;
+    margin:0 auto;
+}
+.header .headparent{
+    width: 90%;
+    height: 100px;
+    background-color: rgb(245, 243, 243);
+    margin: auto;
+}
+.header .headparent .logo{
+    float: left;
+    margin-left: 30px;
+}
+.header .headparent .logo
+.header .headparent .navbar{
+    float: right;
+    margin-right: 30px;
+}
+.header .headparent .navbar ul li{
+    float: right;
+    margin-left: 110px;
+    font-size: 18px;
+    line-height: 100px;
+}
+.header .headparent .navbar ul li a{
+    color: rgb(0, 0, 0);
+}
+.header .headparent .logo .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin-top: 35px;
+}
+.header .headparent .logo .logotitle{
+    float: right;
+    margin: 30px;
+}
+.main{
+    width: 100%;
+    max-width: 1920px;
+    margin:0 auto;
+}
+.main .des{
+    width: 90%;
+    height: 300px;
+    background-color: #181515;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+ .main .des .desctittle{
+    float: left;
+    text-align: center;
+    padding-right: 100px;
+    margin: 50px;
+    margin-left: 10px;
+
+ }
+ .main .des .desctittle h2{
+    font-size: 48px;
+ }
+ .main .des .desctittle h1{
+    font-size: 118px;
+ }
+ .main .des .textDes{
+    width: 470px;
+    float: right;
+    margin-top: 40px;
+ }
+ .main .des .textDes .para p{
+    border-left: 15px solid #fff;
+    padding: 20px;
+ }
+ .main .des .textDes .deslink{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+ }
+ .main .art{
+    width: 90%;
+    height: 350px;
+    background-color: #ffffff;
+    margin: 0 auto;
+ }
+ .main .art .ar{
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+ }
+ .main .art .ar .ima img{
+    width: 300px;
+    float: left;
+ }
+ .main .art .at .image img{
+    width: 300px;
+    float: left;
+ }
+ .main .art .ar  .tit{
+    width: 250px;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 90px;
+    margin-left: 40px;
+ }
+.main .art .at{
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+}
+.main .art .ar .de p{
+    float: left;
+    margin-left: 40px;
+} 
+.main .art .at .ti{
+    width: 250px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.main .art .at .d p{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer{
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    height: 20px;
+}
+.footer .info{
+    float: left;
+    text-align: center;
+}
+.footer .socialMedia ul i{
+    margin-right: 10px;
+}
+.footer .socialMedia ul{
+    margin-left: 50px;
+    float: right;
+}
